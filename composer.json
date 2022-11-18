@@ -1,0 +1,56 @@
+{
+    "name": "swooder/lumenoctane",
+    "description": "Supercharge your Lumen application's performance.",
+    "keywords": ["laravel", "octane", "roadrunner", "swoole"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/laravel/octane/issues",
+        "source": "https://github.com/laravel/octane"
+    },
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ~8.0 || ~8.1",
+        "laminas/laminas-diactoros": "^2.5",
+        "nesbot/carbon": "^2.60",
+        "symfony/psr-http-message-bridge": "^2.0"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.2",
+        "mockery/mockery": "^1.4",
+        "nunomaduro/collision": "^5.10|^6.0",
+        "orchestra/testbench": "^6.16|^7.0",
+        "phpunit/phpunit": "^9.3",
+        "spiral/roadrunner": "^2.8.2"
+    },
+    "bin": [
+      "bin/roadrunner-worker",
+      "bin/swoole-server"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Laravel\\Octane\\": "src"
+        }
+    },
+    
+    "extra": {
+       
+        "laravel": {
+            "providers": [
+                "Laravel\\Octane\\OctaneServiceProvider"
+            ],
+            "aliases": {
+                "Octane": "Laravel\\Octane\\Facades\\Octane"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
