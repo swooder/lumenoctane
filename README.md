@@ -1,3 +1,13 @@
+####  
+
+Laravel Octane supercharges your application's performance by serving your application using high-powered application servers, including Open Swoole, Swoole, and RoadRunner. Octane boots your application once, keeps it in memory, and then feeds it requests at supersonic speeds.
+
+lumen Octane is based on code from   Laravel Octane,  make your lumen app can integration octane
+
+it can run on php >= 7.4 , lumen version  5.8, 6.0, 7.0, 8.0, 9.0
+
+
+
 #### Install via composer
 
 ```
