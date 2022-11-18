@@ -77,7 +77,7 @@ class StartSwooleCommand extends Command
 
         $this->writeServerStateFile($serverStateFile, $extension);
 
-        $this->forgetEnvironmentVariables();
+ //       $this->forgetEnvironmentVariables();
 
         $server = tap(new Process([
             (new PhpExecutableFinder)->find(),
