@@ -1,7 +1,7 @@
 #### Install via composer
 
 ```
-composer require lumen/octane
+composer require swooder/lumenoctane
 ```
 
 #### Copy the config
