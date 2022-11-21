@@ -17,7 +17,7 @@ composer require swooder/lumenoctane
 #### Copy the config
 
 
-Copy the config file from vendor/lumen/octane/config/octane.php to config folder of your Lumen application 
+Copy the config file from vendor/swooder/lumenoctane/config/octane.php to config folder of your Lumen application 
 
 Register your config by adding the following in the bootstrap/app.php before middleware declaration.
 
